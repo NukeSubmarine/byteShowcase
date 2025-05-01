@@ -41,7 +41,6 @@ User inputs:
 *(Then presses ENTER for the next prompt)*
 
 ---
-
 ## 🖨️ Final Output
 
 After collecting all data, the system should display the following message:
