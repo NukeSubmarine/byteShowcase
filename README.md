@@ -1,20 +1,33 @@
-Welcome to my programming portfolio!
+# 👋 Welcome to My Programming Portfolio
 
-This repository is where I showcase the projects, code samples, and experiments I've worked on while studying Computer Science and learning different programming languages and tools.
+This repository is my personal coding showcase — a place where I share the projects, code samples, and experiments I’ve been working on while studying Computer Science and exploring various programming languages and tools.
 
-### 📚 What's Inside
+---
 
-- **Java/** – Projects and exercises written in Java.
-- **Python/** – Scripts and experiments with Python.
-- **PHP/** – Web-related code and server-side logic using PHP.
-- *(More folders will be added as I grow this portfolio.)*
+## 📚 What You'll Find
 
-### 🧠 Purpose
+- **Java/** – Projects and hands-on exercises written in Java.
+- **Python/** – Scripts, utilities, and experiments in Python.
+- **PHP/** – Web-focused development and server-side logic using PHP.
 
-This portfolio reflects my journey as a learner and aspiring developer. It includes class projects, independent practice, and experiments across different areas like back-end development, mobile apps, and software testing.
+> *(More folders will appear here as I grow this portfolio and explore new technologies.)*
 
-### 🚀 Stay tuned!
+---
 
-I regularly update this repository as I learn more and build new things. Feel free to explore and see how my skills evolve over time.
+## 🧠 Why This Portfolio?
+
+This space documents my journey as a **learner** and **aspiring software developer**. You'll find a mix of:
+
+- University coursework
+- Self-driven practice
+- Project-based learning
+- Explorations in back-end systems, mobile development, and software testing
+
+---
+
+## 🚀 Stay Tuned!
+
+I'm continuously updating this repository as I grow my skills and build new things.  
+Feel free to explore — your feedback is always welcome!
 
 ---
