@@ -1,13 +1,24 @@
+import java.util.Scanner;
+
 public class basicBankAccount {
     public static void main(String[] args) {
 
-        //To know and import scanner class
+        Scanner scanner = new Scanner(System.in);
 
-        //Print out user messages
+        double balance = 0;
 
-        //To get from scanner input from the terminal
+        //Ask the user to enter his account number details
+        System.out.print("Please enter your account number: ");
+        int accountNumber = scanner.nextInt();
 
-        //Print out the final message - created account
+        System.out.print("Please enter the sort code (xx-xx-xx): ");
+        String sortCode = scanner.nextLine();
+        scanner.nextLine();
 
+        System.out.print("Please enter the account holder name: ");
+        String accountHolderName = scanner.nextLine();
+
+        System.out.println("\n*** Your account is *** \n" + "Account name: " + accountHolderName + "\n"   + "Account Number: "
+                + accountNumber + "\n" + "Sort Code: " + sortCode + "\n" + "Balance is: " + balance);
     }
 }
