@@ -1,3 +1,5 @@
+package com.nukesubmarine.byteshowcase.basicbankaccount;
+
 import java.util.Scanner;
 
 public class basicBankAccount {
@@ -18,7 +20,7 @@ public class basicBankAccount {
         System.out.print("Please enter the account holder name: ");
         String accountHolderName = scanner.nextLine();
 
-        System.out.println("\n*** Your account is *** \n" + "Account name: " + accountHolderName + "\n"   + "Account Number: "
+        System.out.println("\n*** Your account is *** \n" + "com.nukesubmarine.byteshowcase.basicbankaccount.Account name: " + accountHolderName + "\n"   + "com.nukesubmarine.byteshowcase.basicbankaccount.Account Number: "
                 + accountNumber + "\n" + "Sort Code: " + sortCode + "\n" + "Balance is: " + balance);
     }
 }

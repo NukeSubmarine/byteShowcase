@@ -13,13 +13,13 @@ Inside the project, create the class `AccountTerminal.java` to implement the ent
 - Terminal input (`main` args) and the `Scanner` class
 - String concatenation and the `String.concat` method
 
-### Account Attributes
+### com.nukesubmarine.byteshowcase.basicbankaccount.Account Attributes
 
 | Attribute              | Type    | Example       |
 |------------------------|---------|---------------|
-| Account Number         | Integer | `10234567`    |
+| com.nukesubmarine.byteshowcase.basicbankaccount.Account Number         | Integer | `10234567`    |
 | Sort Code              | Text    | `12-34-56`    |
-| Account Holder Name    | Text    | `John Smith`  |
+| com.nukesubmarine.byteshowcase.basicbankaccount.Account Holder Name    | Text    | `John Smith`  |
 | Balance                | Decimal | `1500.75`     |
 
 ### Input Prompts

@@ -1,3 +1,5 @@
+package com.nukesubmarine.byteshowcase.basicbankaccount;
+
 public class Account {
 
     private int accountNumber;
