@@ -1,0 +1,180 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #00447c;
+  color: white;
+  padding: 10px 20px;
+}
+
+.navbar .logo {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.navbar nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.navbar nav a:hover {
+  text-decoration: underline;
+}
+
+.hero-section {
+  text-align: center;
+  padding: 50px;
+  background: linear-gradient(to bottom, #00447c, #0073e6);
+  color: white;
+}
+
+.search-box {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.search-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+/* Updated CSS for the search-row */
+.search-row {
+  display: flex;
+  gap: 15px;  /* Adds space between the fields */
+  justify-content: center;
+  margin-bottom: 10px; /* Adds a small vertical gap between rows */
+}
+
+/* Input styles */
+.search-row input {
+  padding: 10px;
+  width: 220px;
+  border: 1px solid #ccc;
+  border-radius: 10px; /* Rounded corners */
+  font-size: 16px;
+  color: #333;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow to elevate inputs */
+}
+
+/* Placeholder text style for all input fields */
+.search-row input::placeholder {
+  color: black;  /* Sets placeholder text to light black */
+}
+
+/* Explicit style for date input placeholder */
+.search-row input[type="date"]::placeholder {
+  color: black;
+  opacity: 1; /* Ensures visibility in some browsers where opacity may be reduced */
+}
+
+/* Focus effect */
+.search-row input:focus {
+  outline: none;
+  border-color: #0073e6;
+  box-shadow: 0 0 5px rgba(0, 115, 230, 0.5); /* Subtle glow effect on focus */
+}
+
+/* Date input: consistent look with text input */
+.search-row input[type="date"] {
+  appearance: none;
+  border-radius: 10px; /* Rounded corners */
+}
+
+/* Search button styling */
+.search-form button {
+  padding: 10px 20px;
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  border-radius: 10px; /* Rounded corners */
+  cursor: pointer;
+  font-size: 16px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adds a light shadow */
+  transition: background-color 0.3s ease; /* Smooth color transition on hover */
+}
+
+/* Hover effect for the search button */
+.search-form button:hover {
+  background-color: #e65500;
+}
+
+.schedule-section {
+  text-align: center; /*Centers the text horizontally */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 300px; /* Adjust height as needed */
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.promotions {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.promo-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #00447c;
+  color: white;
+  font-size: 0.9em;
+}
+
+/* List Styles */
+.suggestions-list {
+  position: absolute;         /* Position it directly under the input field */
+  background-color: white;    /* Make the background stand out */
+  border: 1px solid #ccc;     /* Add a border around the suggestions */
+  border-radius: 5px;         /* Rounded corners */
+  width: 100%;                /* Same width as the input field */
+  max-height: 150px;          /* Limit height to avoid overflow */
+  overflow-y: auto;           /* Add scroll if the list is too long */
+  z-index: 1000;              /* Ensure it's on top of other elements */
+}
+
+/* List Item Styles */
+.suggestions-list li {
+  padding: 8px 12px;          /* Add some padding */
+  cursor: pointer;            /* Pointer cursor to indicate clickable items */
+}
+
+/* Hover effect */
+.suggestions-list li:hover {
+  background-color: #f0f0f0;  /* Light gray background on hover */
+}
+
