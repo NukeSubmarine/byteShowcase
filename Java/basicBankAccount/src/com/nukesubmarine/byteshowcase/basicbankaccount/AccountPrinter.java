@@ -4,10 +4,8 @@
 
 package com.nukesubmarine.byteshowcase.basicbankaccount;
 
-public class AccountPrinter {
-
     public interface AccountPrinter{
 
         void print(Account account);
     }
-}
+

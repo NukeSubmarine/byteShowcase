@@ -2,7 +2,7 @@ package com.nukesubmarine.byteshowcase.basicbankaccount;
 
 public class ConsoleAccountPrinter implements AccountPrinter{
 
-    Override
+    @Override
     public void print(Account account){
         System.out.println("\n*** Your accout is ***");
         System.out.println("Account holder name: " + account.getAccountHolderName());
