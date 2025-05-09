@@ -1,7 +1,3 @@
-///  ** Interface ** which defines the contract (no implementation).
-/// ** this is the contract for making Accounts.
-
-//Interface com.nukesubmarine.byteshowcase.basicbankaccount.AccountGenerator
 package com.nukesubmarine.byteshowcase.basicbankaccount;
 
 import java.util.Scanner;
