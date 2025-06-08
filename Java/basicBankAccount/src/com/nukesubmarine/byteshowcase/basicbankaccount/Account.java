@@ -1,5 +1,12 @@
 package com.nukesubmarine.byteshowcase.basicbankaccount;
 
+/**
+ * Domain model representing a bank account.
+ *
+ * Holds the account number, sort code, account holder’s name,
+ * and current balance. Provides getters and setters for each field.
+ */
+
 public class Account {
 
     private int accountNumber;
